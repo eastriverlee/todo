@@ -10,7 +10,7 @@ after cloning this repository, normally all you need to do is:
 make
 ```
 
-note that this is equivalent to
+note that this is equivalent to:
 ```sh
 cc -o todo todo.c && mv todo /usr/local/bin
 ```
@@ -61,4 +61,8 @@ todo clear
 # uninstall
 ```sh
 make uninstall
+```
+which is equvalent to:
+```sh
+rm todo /usr/local/bin/todo
 ```
